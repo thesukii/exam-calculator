@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+
+ int engquest , engpoint  , englast , englast1;
+    int engcorrect , engcorrectnew , engfalse;
+
+    int bioquest, biopoint, biolast, biolast1;
+    int biocorrect, biocorrectnew , biofalse;
+
+    int mathquest , matpuan, matson ,matson1;
+    int matnet, matnetyeni, mathata;
+
+    int dogrutop , hatatop , neto;
