@@ -22,3 +22,45 @@ int main(){
     engpoint=2;
     biopoint=4;
     mathpoint=5;
+    
+    cout<<"Enter eglish correct number:"<<" ";
+    cin>>engcorrect;
+    cout<<"Enter english false number:"<<" ";
+    cin>>engfalse;
+    cout<<"Enter biology correct number:"<<" ";
+    cin>>biocorrect;
+    cout<<"Enter biologt false number:"<<" ";
+    cin>>biofalse;
+    cout<<"Enter math correct number:"<<" ";
+    cin>>mathcorrect;
+    cout<<"Enter math false number:"<<" ";
+    cin>>mathfalse;
+    
+    if(engcorrect>25)
+    {
+    cout<<"Enter under 25!"<<endl;
+    cout<<"Try again:"<<" ";    
+    cin>>engcorrectnew;
+    englast=engcorrectnew*engpoint; //find out english correct
+    cout<<"---------------------"<<endl;
+    cout<<"English point:"<<" "<<englast<<endl; //print the english point
+    } else { 
+        englast=engcorrect*engpoint; //finds again
+        cout<<"---------------------"<<endl;
+        cout<<"English point:"<<" "<<englast<<endl;
+           } 
+           
+    if(mathcorrect>25)
+    {
+    cout<<"Enter under 25!"<<endl;
+    cout<<"Try again:"<<" ";    
+    cin>>mathcorrectnew;
+    mathlast=mathcorrectnew*mathpoint; //find out math correct
+    cout<<"---------------------"<<endl;
+    cout<<"Math point:"<<" "<<mathlast<<endl; //print the math point
+    } else { 
+        mathlast=mathcorrect*mathpoint; //finds again
+        cout<<"---------------------"<<endl;
+        cout<<"Math point:"<<" "<<mathlast<<endl;
+           } 
+    
