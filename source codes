@@ -12,4 +12,5 @@ int main(){
     int mathquest , matpuan, matson ,matson1;
     int matnet, matnetyeni, mathata;
 
-    int dogrutop , hatatop , neto;
+    int totalcorrect , totalfalse , total;
+    
