@@ -14,3 +14,11 @@ int main(){
 
     int totalcorrect , totalfalse , total;
     
+    //Question numbers//
+    engquest=25;
+    bioquest=25;
+    mathquest=25;
+    //Points//
+    engpoint=2;
+    biopoint=4;
+    mathpoint=5;
