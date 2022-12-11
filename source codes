@@ -79,5 +79,9 @@ int main(){
         cout<<"Biology point:"<<" "<<biolast<<endl;
            }   
     {
+    totalcorrect=englast+mathlast+biolast;
+    totalfalse=engfalse+mathfalse+biofalse;
+    total=totalcorrect-totalfalse/4;
+    cout<<"Your exam result:"<<" "<<total<<endl;
     
-    
+    }
