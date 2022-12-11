@@ -63,4 +63,21 @@ int main(){
         cout<<"---------------------"<<endl;
         cout<<"Math point:"<<" "<<mathlast<<endl;
            } 
+       
+    {
+    if(biocorrect>25)
+    {
+    cout<<"Enter under 25!"<<endl;
+    cout<<"Try again:"<<" ";    
+    cin>>biocorrectnew;
+    biolast=biocorrectnew*biopoint; //find out biology correct
+    cout<<"---------------------"<<endl;
+    cout<<"Biology point:"<<" "<<biolast<<endl; //print the biology point
+    } else { 
+        biolast=biocorrect*biopoint; //finds again
+        cout<<"---------------------"<<endl;
+        cout<<"Biology point:"<<" "<<biolast<<endl;
+           }   
+    {
+    
     
