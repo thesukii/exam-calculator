@@ -36,6 +36,7 @@ int main(){
     cout<<"Enter math false number:"<<" ";
     cin>>mathfalse;
     
+    //we will use if-else loop
     if(engcorrect>25)
     {
     cout<<"Enter under 25!"<<endl;
