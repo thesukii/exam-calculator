@@ -56,11 +56,11 @@ int main(){
     cout<<"Enter under 25!"<<endl;
     cout<<"Try again:"<<" ";    
     cin>>mathcorrectnew;
-    mathlast=mathcorrectnew*mathpoint; //find out math correct
+    mathlast=mathcorrectnew*mathpoint; // find out math correct
     cout<<"---------------------"<<endl;
     cout<<"Math point:"<<" "<<mathlast<<endl; //print the math point
     } else { 
-        mathlast=mathcorrect*mathpoint; //finds again
+        mathlast=mathcorrect*mathpoint; // finds again
         cout<<"---------------------"<<endl;
         cout<<"Math point:"<<" "<<mathlast<<endl;
            } 
@@ -80,8 +80,9 @@ int main(){
         cout<<"Biology point:"<<" "<<biolast<<endl;
            }   
     {
-    totalcorrect=englast+mathlast+biolast;
-    totalfalse=engfalse+mathfalse+biofalse;
+    // here is the proccess which will help us to know result
+    totalcorrect=englast+mathlast+biolast; // only your corrects
+    totalfalse=engfalse+mathfalse+biofalse; // only your faults
     total=totalcorrect-totalfalse/4;
     cout<<"Your exam result:"<<" "<<total<<endl;
     
