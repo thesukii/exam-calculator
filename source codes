@@ -83,7 +83,7 @@ int main(){
     // here is the proccess which will help us to know result
     totalcorrect=englast+mathlast+biolast; // only your corrects
     totalfalse=engfalse+mathfalse+biofalse; // only your faults
-    total=totalcorrect-totalfalse/4;
+    total=totalcorrect-totalfalse/4; // and your final result
     cout<<"Your exam result:"<<" "<<total<<endl;
     
     }
